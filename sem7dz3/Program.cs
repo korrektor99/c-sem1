@@ -38,11 +38,11 @@ for(int i=0;i<4;i++)
     }
     Console.WriteLine();
 }
-double srarf1=sum1/count1;//+sum1%count1;
-double srarf2=sum2/count2;
-double srarf3=sum3/count3;;
-double srarf4=sum4/count4;
-Console.WriteLine($" {count1} {sum1} {sum1%count1}");
+decimal srarf1=sum1/(decimal)count1;//+sum1%count1;
+decimal srarf2=sum2/(decimal)count2;
+decimal srarf3=sum3/(decimal)count3;;
+decimal srarf4=sum4/(decimal)count4;
+Console.WriteLine($" кол-во цифр в столбце{count1} сумма чисел в столбце{sum1}");
  Console.WriteLine($"cреднее арeфметическое 1го столбца {srarf1}  ");
  Console.WriteLine($"cреднее арeфметическое 2го столбца {srarf2}  ");
  Console.WriteLine($"cреднее арeфметическое 3го столбца {srarf3}  ");
